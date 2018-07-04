@@ -1,4 +1,4 @@
-package com.bandrzejczak.sso.oauth2
+package eu.dgt.sso.oauth2
 
 import akka.event.LoggingAdapter
 import akka.http.scaladsl.model.headers.{Authorization, OAuth2BearerToken}

@@ -1,0 +1,9 @@
+{
+  "realm": "apiserver",
+  "auth-server-url": "http://localhost:8080/auth",
+ "realm-public-key" : "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgUmUFywqvkYjfpIVcqEPVtGVMSOlPQFMOZ3jHOe+KWGD3F2qUsVN+GR70wAQ+8/6MJwAyGty9yRoZPOw+62YE0cIKCm3XdBXJ+UgYBni4x2I0lupRbP/U0gphweH8ThEZTDLe01vCBpDqrMcpL0dWW1L/GOM8NiPS+kvmaaPxpe5OG38jR2GwPfKl5A93X/v5UsKXgVjKI/a9jiKuTsmGfVaGsrZITZCrT5TfjNfC4FfC1JYBR9Wk9D3GeZcDYRBA8frS7cnraY94W+hN1ETbmDaPN1YNlpIAfRT70ah08/Pb99Qi2RMQesx2qs/1qVbCg5gVDV/L5CS2NbHPs4gcQIDAQAB",
+  "ssl-required": "external",
+  "resource": "webapp",
+  "public-client": true,
+  "confidential-port": 0
+}

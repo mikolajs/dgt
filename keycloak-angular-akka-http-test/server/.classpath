@@ -1,0 +1,167 @@
+<classpath>
+  <classpathentry kind="src" path="src/main/scala"/>
+  <classpathentry kind="src" path="src/main/resources"/>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"></classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/com.typesafe.akka/akka-http_2.12/srcs/akka-http_2.12-10.1.3-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.1.3.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/com.typesafe.akka/akka-http_2.12/docs/akka-http_2.12-10.1.3-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/srcs/akka-http-core_2.12-10.1.3-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.1.3.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/docs/akka-http-core_2.12-10.1.3-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/srcs/akka-parsing_2.12-10.1.3-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/jars/akka-parsing_2.12-10.1.3.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/docs/akka-parsing_2.12-10.1.3-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/srcs/akka-stream_2.12-2.5.12-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.12.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/docs/akka-stream_2.12-2.5.12-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.12-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.12.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/docs/akka-actor_2.12-2.5.12-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/com.typesafe/config/srcs/config-1.3.2-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/com.typesafe/config/bundles/config-1.3.2.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/com.typesafe/config/docs/config-1.3.2-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/srcs/scala-java8-compat_2.12-0.8.0-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/bundles/scala-java8-compat_2.12-0.8.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/docs/scala-java8-compat_2.12-0.8.0-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.12/srcs/akka-protobuf_2.12-2.5.12-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.12/jars/akka-protobuf_2.12-2.5.12.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.12/docs/akka-protobuf_2.12-2.5.12-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/org.reactivestreams/reactive-streams/srcs/reactive-streams-1.0.2-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.2.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/org.reactivestreams/reactive-streams/docs/reactive-streams-1.0.2-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/com.typesafe/ssl-config-core_2.12/srcs/ssl-config-core_2.12-0.2.3-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/com.typesafe/ssl-config-core_2.12/bundles/ssl-config-core_2.12-0.2.3.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/com.typesafe/ssl-config-core_2.12/docs/ssl-config-core_2.12-0.2.3-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/srcs/scala-parser-combinators_2.12-1.1.0-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.1.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/docs/scala-parser-combinators_2.12-1.1.0-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.12/srcs/akka-http-spray-json_2.12-10.1.3-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.12/jars/akka-http-spray-json_2.12-10.1.3.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.12/docs/akka-http-spray-json_2.12-10.1.3-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/io.spray/spray-json_2.12/srcs/spray-json_2.12-1.3.4-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/io.spray/spray-json_2.12/bundles/spray-json_2.12-1.3.4.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/io.spray/spray-json_2.12/docs/spray-json_2.12-1.3.4-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/ch.megard/akka-http-cors_2.12/srcs/akka-http-cors_2.12-0.3.0-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/ch.megard/akka-http-cors_2.12/jars/akka-http-cors_2.12-0.3.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/ch.megard/akka-http-cors_2.12/docs/akka-http-cors_2.12-0.3.0-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/ch.qos.logback/logback-classic/srcs/logback-classic-1.1.3-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/ch.qos.logback/logback-classic/docs/logback-classic-1.1.3-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/ch.qos.logback/logback-core/srcs/logback-core-1.1.3-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/ch.qos.logback/logback-core/docs/logback-core-1.1.3-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/srcs/scala-logging_2.12-3.9.0-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/bundles/scala-logging_2.12-3.9.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/docs/scala-logging_2.12-3.9.0-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.25-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/org.slf4j/slf4j-api/docs/slf4j-api-1.7.25-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.12/srcs/akka-slf4j_2.12-2.5.12-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.12/jars/akka-slf4j_2.12-2.5.12.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.12/docs/akka-slf4j_2.12-2.5.12-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/org.keycloak/keycloak-adapter-core/srcs/keycloak-adapter-core-4.0.0.Final-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/org.keycloak/keycloak-adapter-core/jars/keycloak-adapter-core-4.0.0.Final.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/org.keycloak/keycloak-adapter-core/docs/keycloak-adapter-core-4.0.0.Final-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/org.keycloak/keycloak-core/srcs/keycloak-core-4.0.0.Final-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/org.keycloak/keycloak-core/jars/keycloak-core-4.0.0.Final.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/org.keycloak/keycloak-core/docs/keycloak-core-4.0.0.Final-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/org.keycloak/keycloak-common/srcs/keycloak-common-4.0.0.Final-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/org.keycloak/keycloak-common/jars/keycloak-common-4.0.0.Final.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/org.keycloak/keycloak-common/docs/keycloak-common-4.0.0.Final-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/org.bouncycastle/bcprov-jdk15on/srcs/bcprov-jdk15on-1.56-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/org.bouncycastle/bcprov-jdk15on/jars/bcprov-jdk15on-1.56.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/org.bouncycastle/bcprov-jdk15on/docs/bcprov-jdk15on-1.56-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/org.bouncycastle/bcpkix-jdk15on/srcs/bcpkix-jdk15on-1.56-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/org.bouncycastle/bcpkix-jdk15on/jars/bcpkix-jdk15on-1.56.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/org.bouncycastle/bcpkix-jdk15on/docs/bcpkix-jdk15on-1.56-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.8.11-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.8.11.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/docs/jackson-core-2.8.11-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.8.11.1-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.8.11.1.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/docs/jackson-databind-2.8.11.1-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.8.0-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.8.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/docs/jackson-annotations-2.8.0-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/org.jboss.logging/jboss-logging/srcs/jboss-logging-3.3.1.Final-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.3.1.Final.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/org.jboss.logging/jboss-logging/docs/jboss-logging-3.3.1.Final-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.5.2-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.5.2.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/org.apache.httpcomponents/httpclient/docs/httpclient-4.5.2-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.4.4-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.4.4.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/org.apache.httpcomponents/httpcore/docs/httpcore-4.4.4-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.2-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.2.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/commons-logging/commons-logging/docs/commons-logging-1.2-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.9-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.9.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/commons-codec/commons-codec/docs/commons-codec-1.9-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="output" path="bin"/>
+</classpath>

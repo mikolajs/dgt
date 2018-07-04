@@ -1,4 +1,4 @@
-package com.bandrzejczak.sso.oauth2
+package eu.dgt.sso.oauth2
 
 import scala.concurrent.Future
 

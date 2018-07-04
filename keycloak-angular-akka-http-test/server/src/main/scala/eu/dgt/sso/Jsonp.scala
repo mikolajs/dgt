@@ -1,4 +1,4 @@
-package com.bandrzejczak.sso
+package eu.dgt.sso
 
 import akka.http.scaladsl.model.MediaTypes._
 import akka.http.scaladsl.model.{ContentType, HttpEntity}

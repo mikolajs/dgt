@@ -1,4 +1,4 @@
-name := "keycloak-akka-http"
+name := "keycloak-scalaClient"
 
 version := "1.0"
 
@@ -11,8 +11,7 @@ val keyCloakV = "4.0.0.Final"
 val akka = Seq (
   "com.typesafe.akka" %% "akka-http" % akkaHttp,
   "com.typesafe.akka" %% "akka-stream" % akkaStream,
-  "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttp,
-  "ch.megard" %% "akka-http-cors" % "0.3.0"
+  "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttp
 )
 
 val logging = Seq (
@@ -23,12 +22,10 @@ val logging = Seq (
 )
 
 val keycloak = Seq (
-   "org.keycloak" % "keycloak-adapter-core" % keyCloakV,
+   "org.keycloak" % "keycloak-authz-client" % keyCloakV,
   // we include all necessary transitive dependencies,
   // because they're marked provided in keycloak pom.xml
   "org.keycloak" % "keycloak-core" % keyCloakV,
-  "org.jboss.logging" % "jboss-logging" % "3.3.1.Final",
- "org.apache.httpcomponents" % "httpclient" % "4.5.2"
 )
 
 libraryDependencies ++= akka ++ logging ++ keycloak

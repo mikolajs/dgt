@@ -1,0 +1,73 @@
+<classpath>
+  <classpathentry kind="src" path="src/main/scala"/>
+  <classpathentry kind="src" path="src/main/resources"/>
+  <classpathentry kind="src" path="src/test/scala"/>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"></classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/org.keycloak/keycloak-authz-client/srcs/keycloak-authz-client-4.0.0.Final-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/org.keycloak/keycloak-authz-client/jars/keycloak-authz-client-4.0.0.Final.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/org.keycloak/keycloak-authz-client/docs/keycloak-authz-client-4.0.0.Final-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/org.keycloak/keycloak-core/srcs/keycloak-core-4.0.0.Final-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/org.keycloak/keycloak-core/jars/keycloak-core-4.0.0.Final.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/org.keycloak/keycloak-core/docs/keycloak-core-4.0.0.Final-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/org.keycloak/keycloak-common/srcs/keycloak-common-4.0.0.Final-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/org.keycloak/keycloak-common/jars/keycloak-common-4.0.0.Final.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/org.keycloak/keycloak-common/docs/keycloak-common-4.0.0.Final-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/org.bouncycastle/bcprov-jdk15on/srcs/bcprov-jdk15on-1.56-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/org.bouncycastle/bcprov-jdk15on/jars/bcprov-jdk15on-1.56.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/org.bouncycastle/bcprov-jdk15on/docs/bcprov-jdk15on-1.56-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/org.bouncycastle/bcpkix-jdk15on/srcs/bcpkix-jdk15on-1.56-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/org.bouncycastle/bcpkix-jdk15on/jars/bcpkix-jdk15on-1.56.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/org.bouncycastle/bcpkix-jdk15on/docs/bcpkix-jdk15on-1.56-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.8.11-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.8.11.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/docs/jackson-core-2.8.11-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.8.11.1-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.8.11.1.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/docs/jackson-databind-2.8.11.1-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.8.0-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.8.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/docs/jackson-annotations-2.8.0-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/org.jboss.logging/jboss-logging/srcs/jboss-logging-3.3.1.Final-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.3.1.Final.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/org.jboss.logging/jboss-logging/docs/jboss-logging-3.3.1.Final-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.5.2-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.5.2.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/org.apache.httpcomponents/httpclient/docs/httpclient-4.5.2-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.4.4-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.4.4.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/org.apache.httpcomponents/httpcore/docs/httpcore-4.4.4-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.2-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.2.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/commons-logging/commons-logging/docs/commons-logging-1.2-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/ms/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.9-sources.jar" kind="lib" path="/home/ms/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.9.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/ms/.ivy2/cache/commons-codec/commons-codec/docs/commons-codec-1.9-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="output" path="bin"/>
+</classpath>
