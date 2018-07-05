@@ -9,9 +9,13 @@ class OAuth2Authorization(logger: LoggingAdapter, tokenVerifier: TokenVerifier) 
 
   def authorized: Directive1[OAuth2Token] = {
     bearerToken.flatMap {
-      case Some(token) =>
+      case Some(token) => {
+        //logger.debug(token)
         onComplete(tokenVerifier.verifyToken(token)).flatMap {
-          _.map(username => provide(OAuth2Token(token, username)))
+          _.map(ac => {
+            logger.debug(s"Name: ${ac.getPreferredUsername} \n Scope: ${ac.getRealmAccess.getRoles}")
+            ac.getPreferredUsername})
+            .map(username => provide(OAuth2Token(token, username)))
             .recover {
               case ex =>
                 logger.error(ex, "Couldn't log in using provided authorization token")
@@ -19,6 +23,7 @@ class OAuth2Authorization(logger: LoggingAdapter, tokenVerifier: TokenVerifier) 
             }
             .get
         }
+      }
       case None =>
         reject(AuthorizationFailedRejection)
     }

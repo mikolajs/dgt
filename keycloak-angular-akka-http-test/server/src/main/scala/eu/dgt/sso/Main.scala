@@ -24,6 +24,7 @@ import java.nio.file.Files
 import java.nio.file.Paths
 import akka.stream.scaladsl.Source
 import akka.http.scaladsl.server.PathMatchers
+import org.apache.http.HttpHeaders
 
 object Main extends App with Jsonp with JsonProtocol {
   implicit val system = ActorSystem("apiserver-system")
@@ -64,7 +65,7 @@ object Main extends App with Jsonp with JsonProtocol {
       path("test") {
         get {
           respondWithHeaders(allOrginHeaders: _*) {
-            complete(token)
+            complete("ACCEPTED")
           }
         }
 
@@ -85,7 +86,7 @@ object Main extends App with Jsonp with JsonProtocol {
     }
   }
 
-  val bindingFuture = Http().bindAndHandle(StaticRoutes.generate ~ route1 ~ route2, "localhost", 9000)
+  val bindingFuture = Http().bindAndHandle(route1, "localhost", 9000)
 
   println("bind on port 9000")
 
